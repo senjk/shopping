@@ -1,0 +1,79 @@
+@CHARSET "UTF-8";
+
+#bodys{
+	
+	width: 980px;
+	height: 450px;
+	border: 1px solid lightgrey;
+	margin: 0 auto;
+	/* margin: 10px 0px 10px 100px; */
+}
+#leftbodys{
+	width: 30%;
+	height: 450px;
+	float: left;
+}
+#leftbodys img{
+	width: 100%;
+	height: 300px;
+	margin-top: 20px;
+}
+#rightbodys{
+	width: 70%;
+	height: 450px;
+	float: left;
+}
+#rightbodys #drink{
+	width: 100%;
+	font-size: 26px;
+	margin: 20px 0px 0px 20px;
+	line-height: 40px;
+	color: rgb(204,0,0);
+}
+#rightbodys #prices,#p1{
+	width: 80%;
+	height: 30px;
+	margin: 10px 0px 0px 20px;
+	line-height: 30px;
+	font-size: 18px;
+}
+#rightbodys #address{
+	width: 100%;
+	height: 30px;
+	font-size: 18px;
+	line-height: 30px;
+	margin: 10px 0px 0px 20px;
+}
+#rightbodys #address select{
+	width: 80px;
+	height: 25px;
+	margin-left: 0px;
+}
+#rightbodys #address #street{
+	width: 250px;
+	height: 19px;
+}
+#rightbodys #numbers{
+	width: 200px;
+	height: 30px;
+	font-size: 18px;
+	line-height: 30px;
+	margin: 10px 0px 0px 20px;
+}
+#rightbodys #numbers input{
+	width: 40px;
+	height: 20px;
+}
+#rightbodys #buy,#orders{
+	display: inline-block;
+	width: 140px;
+	height: 40px;
+	margin: 10px 0px 0px 20px;
+	font-size: 24px;
+	background-color: rgb(204,0,0);
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 5px;
+	cursor: pointer;
+}

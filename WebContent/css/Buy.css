@@ -1,0 +1,45 @@
+#bodys{
+	width: 980px;
+	height: 450px;
+	border: 1px solid lightgrey;
+	/* margin: 10px 0px 10px 150px; */	
+	margin:10px auto;
+}
+#table1{
+	margin: 15px 0px 0px 35px;
+	text-align: center;
+}
+#table1 #data img{
+	width: 110px;
+	height: 100px;
+	float: left;
+}
+#table1 #data #span1{
+	display: block;
+	width: 210px;
+	height: 60px;
+	float: left;
+	margin-top: 20px;
+}
+#pays{
+	width: 400px;
+	height: 130px;
+	margin: 10px 0px 0px 580px;
+}
+#pays #address{
+	width: 400px;
+	height: 90px;
+	border: 1px solid lightgrey;
+}
+#pays #pay{
+	width: 150px;
+	height: 30px;
+	margin: 7px 0px 0px 250px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 5px;
+	background-color: rgb(204,0,0);
+	color: white;
+	cursor: pointer;
+}

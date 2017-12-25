@@ -1,0 +1,159 @@
+@CHARSET "UTF-8";
+/* #bodys{
+	width: 700px;
+	height: 400px;
+	margin: 10px auto;
+} */
+#formcs{
+	width: 40%;
+	height: 360px;
+	margin: 25px 0px 25px 10%;
+	 border-top: 2px solid grey; 
+	border-left: 1px solid grey;
+	border-right: 1px solid grey;
+	border-bottom: 1px solid grey;
+}
+#upassword{
+	width: 40%;
+	height: 360px;
+	margin: 25px 0px 25px 10%;
+	 border-top: 2px solid grey; 
+	border-left: 1px solid grey;
+	border-right: 1px solid grey;
+	border-bottom: 1px solid grey;
+}
+h2{
+	display: inline-block;
+	color: grey;
+	margin: 20px 0px 0px 20px;
+}
+#formcs a{
+	text-decoration: none;
+	color: rgb(204, 0, 0);
+	margin-left: 150px;
+	font-size: 14px;
+}
+#formcs #p1{
+	width: 70px;
+	height: 35px;
+	float: left; 
+	margin: 50px 0px 10px 30px;
+	line-height: 35px;
+	text-align: center;
+}
+#formcs #p2{
+	width: 70px;
+	height: 35px;
+	float: left; 
+	margin: 10px 0px 10px 30px;
+	line-height: 35px;
+	text-align: center;
+}
+#formcs #code{
+	width: 230px;
+	height: 35px;
+	float: left; 	
+	margin: 50px 0px 10px 0px;
+}
+#formcs #yanma{
+	width: 230px;
+	height: 35px;
+	float: left; 	
+	margin: 10px 0px 10px 0px;
+}
+#formcs #yan{
+	width: 100px;
+	height: 35px;
+	text-align:center;
+	font-size:24px;
+	float: left; 	
+	margin: 10px 0px 10px 30%;
+}
+
+#formcs #putt{
+	width: 85px;
+	height: 40px;
+	float: left; 	
+	margin: 10px 0px 10px 0px;
+}
+
+#formcs #massage{
+	width: 230px;
+	height: 25px;
+	float: left;
+	margin-left: 80px;
+	text-align: center;
+	color: rgb(204, 0, 0);
+}
+#formcs #button{
+	width: 290px;
+	height: 35px;
+	margin: 10px 0px 0px 30px;
+	background-color: rgb(204, 0, 0);
+	border-radius: 5px;
+	font-size: 20px; 
+	color: white;
+	border: 1px solid  rgb(204, 0, 0);
+}
+
+
+/*
+update password
+*/
+
+#upassword a{
+	text-decoration: none;
+	color: rgb(204, 0, 0);
+	margin-left: 150px;
+	font-size: 14px;
+}
+#upassword #p1{
+	width: 80px;
+	height: 35px;
+	float: left; 
+	margin: 50px 0px 10px 30px;
+	line-height: 35px;
+	text-align: center;
+}
+#upassword #p2{
+	width: 80px;
+	height: 35px;
+	float: left; 
+	margin: 10px 0px 10px 30px;
+	line-height: 35px;
+	text-align: center;
+}
+#upassword #password{
+	width: 230px;
+	height: 35px;
+	float: left; 	
+	margin: 50px 0px 10px 0px;
+}
+#upassword #repassword{
+	width: 230px;
+	height: 35px;
+	float: left; 	
+	margin: 10px 0px 10px 0px;
+}
+
+
+
+
+#upassword #massages{
+	width: 230px;
+	height: 25px;
+	float: left;
+	margin-left: 80px;
+	text-align: center;
+	color: rgb(204, 0, 0);
+}
+#upassword #rebutton{
+	width: 290px;
+	height: 35px;
+	margin: 10px 0px 0px 30px;
+	background-color: rgb(204, 0, 0);
+	border-radius: 5px;
+	font-size: 20px; 
+	color: white;
+	border: 1px solid  rgb(204, 0, 0);
+}

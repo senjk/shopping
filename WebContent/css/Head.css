@@ -1,0 +1,148 @@
+/*#create by 程森-----head*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+header{
+	width: 980px;
+	background: url(../img/h_bg.jpg) no-repeat -20px 0 ;
+	height: 133px;
+	/*border :1px red solid;*/
+	margin: 0 auto;
+	position: relative;
+}
+.top_right{
+	width: 450px;
+	position: absolute;
+	right: 0;
+	top: 8px;
+	font-size: 14px;
+}
+ .top_right>ul li{
+	list-style: none;
+	display: inline-block;
+	
+	
+}
+
+.top_right>ul li a{
+  color: black;
+  text-decoration: none;
+	}
+	.top1{
+		/*border: 1px blue solid;*/
+		width: 30px;
+		height: 25px;
+		background: url(../img/icon.gif) no-repeat ;
+	}
+	.top2{
+		/*border: 1px blue solid;*/
+		width: 30px;
+		height: 25px;
+		background: url(../img/icon.gif) no-repeat -42px 2px;
+	}
+	.top3{
+		/*border: 1px blue solid;*/
+		width: 30px;
+		height: 25px;
+		background: url(../img/icon.gif) no-repeat -84px 2px;
+	}
+.top4{
+		/*border: 1px blue solid;*/
+		width: 30px;
+		height: 25px;
+		background: url(../img/icon.gif) no-repeat -126px 2px;
+	}
+	.top_time{
+		color: grey;
+		width: 390px;
+		/*border: 1px blue solid;*/
+		position: absolute;
+		bottom: 35px;
+		right: 50px;
+		font-size: 14px;
+	}
+	.top_bottom{
+		position: absolute;
+		left: 0;
+		bottom: 10px;
+	}
+.top_bottom ul li{
+	list-style: none;
+	display: inline-block;
+	width: 80px;
+	text-align: center;
+	
+}
+.top_bottom ul li a{
+	color: black;
+  text-decoration: none;
+}
+#headNextCenter{
+	float: left;
+	width: 30%;
+	height: 14.5%;
+	margin-left: 300px;
+	position: absolute;
+	margin: 10.5% auto auto 76%;
+	/*border: 2px solid rgb(255, 64, 64);*/
+}
+#headNextCenter #search{
+	display: block;
+	width: 158px;
+	height: 23px;
+	border: 1px solid rgb(250, 200, 129);
+	
+	float: left;
+}
+#headNextCenter #button{
+	display: block;
+	width: 67px;
+	height: 23px;
+	border: 1px solid rgb(250, 200, 129);
+	background-color: rgb(250, 200, 129) ;
+	color: black;
+
+}
+#link .login{
+	color: rgb(255, 64, 64);
+}
+#link .register{
+	color: black;
+}
+#link .other{
+	color: black;
+	cursor: pointer;
+}
+#first span{
+	text-align: center;
+	display: block;
+	height: 30px;
+	width: 80px;
+	cursor: pointer;
+}
+#link .register:hover{
+	color: rgb(255, 64, 64);
+}
+#link .other:hover{
+	color: rgb(255, 64, 64);
+}
+#first span:hover{
+	color: rgb(255, 64, 64);
+}
+#first ul{
+	padding-left: 6px;
+	display: block;
+	width: 74px;
+	position: absolute;
+	display: none;
+	z-index: 3;
+	margin: -1px auto auto -1px;
+}
+ #first li:hover{
+	color: rgb(255, 64, 64);
+	cursor: pointer;
+}
+

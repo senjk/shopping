@@ -1,0 +1,96 @@
+@CHARSET "UTF-8";
+#header{
+	width: 1340px;
+	height: 100px;
+	border-bottom: 2px solid grey;
+}
+#header #i1{
+	width: 220px;
+	height: 70px;
+	margin: 15px auto 20px 200px;
+	float: left;
+}
+#header h2{
+	display: inline-block;
+	width: 160px;
+	height: 40px;
+	margin: 30px 0px 0px 20px;
+	float: left;
+}
+#header a{
+	font-size: 20px;
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	color: black;
+	text-decoration: none;
+	border: 1px solid grey;
+	 float: left;
+	margin: 35px auto 20px 600px; 
+	border-radius: 15px;
+	text-align: center;
+	line-height: 30px;
+}
+#forms{
+	width: 500px;
+	height: 500px;
+	border: 1px solid lightgrey;
+	margin: 20px 0px 0px 430px;
+}
+#forms #d2{
+	width: 500px;
+	height: 40px;
+	margin: 50px 0px 0px 0px;
+}
+#forms #d1{
+	width: 500px;
+	height: 40px;
+	margin: 10px 0px 0px 0px;
+}
+#forms #p2{
+	width: 80px;
+	height: 40px; 
+	line-height: 35px;
+	text-align: center;
+	float: left;
+	margin: 0px 0px 0px 30px;
+}
+
+#forms span{
+	display: block;
+	width: 130px;
+	height: 40px;
+	float: left;
+	color: rgb(204,0,0);
+	text-align: center;
+	line-height: 40px;
+	font-size: 14px;
+}
+#forms #code,#username,#password,#selects,#email,#phone,#brithday{
+	width: 250px;
+	height: 35px; 
+	float: left;	
+}
+#forms #button{
+	width: 290px;
+	height: 35px;
+	margin: 30px 0px 0px 100px;
+	background-color: rgb(204, 0, 0);
+	border-radius: 5px;
+	font-size: 20px; 
+	color: white;
+	border: 1px solid  rgb(204, 0, 0);
+}
+#footer{
+	width: 1340px;
+	height: 140px;
+	font-size: 19px;
+	margin-top: 20px;
+	text-align: center;
+	color: grey;
+}
+#footer a{
+	text-decoration: none;
+	color: grey;
+	margin: 10px 0px 0px 0px;
+}
