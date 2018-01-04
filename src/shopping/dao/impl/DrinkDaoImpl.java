@@ -9,7 +9,9 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
+
 import shopping.common.DataSources;
+
 import shopping.dao.IDrinkDao;
 import shopping.entity.Account;
 import shopping.entity.Drinks;
@@ -61,7 +63,9 @@ public class DrinkDaoImpl implements IDrinkDao {
 		sql.append(account.getSex()+"')");
 		try {
 			String mysql=sql.toString();
+			
 			st.executeUpdate(mysql);
+			
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -247,6 +251,8 @@ public class DrinkDaoImpl implements IDrinkDao {
 		}
 		return i;
 	}
+
+
 
 }
 	

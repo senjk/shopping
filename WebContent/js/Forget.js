@@ -1,6 +1,8 @@
 $(document).ready(function(){
 	$("#forms #putt").click(function(){
+		
 		ajaxforget();
+	
 		
 	});
 	$("#forms #button").click(function(){
@@ -72,6 +74,8 @@ $(document).ready(function(){
 	Num+=Math.floor(Math.random()*10); 
 	} 
 	$("#yan").val(Num); 
+	
+	ajaxmail(Num);
 
 	};
 	
@@ -101,5 +105,29 @@ $(document).ready(function(){
 	}
 	
 	
+	
+	function ajaxmail(Num){
+		
+		var nums=Num;
+			var datas={"code":$('#code').val(),"messsage":nums};
+			$.ajax({
+				url:'EmailServlet',
+				type:'post',
+				dataType:'json',
+				data:datas,
+				success:success_functionmail,
+				error:error_functionmail
+			});
+		};
+		function success_functionmail(ajaxData){
+			if("0"==ajaxData){
+				alert("验证码已发送至您的邮箱");
+			}else{
+				alert("失败");
+			}
+		};
+		function error_functionmail(){
+			alert("错误3");
+		};
 	
 })

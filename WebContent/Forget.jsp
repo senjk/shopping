@@ -33,7 +33,7 @@
 				
 				<p id="p1">账号：</p><input type="text"  id="code" placeholder="请输入账号" required pattern="^[a-zA-z]{4,20}$"><br>
 				<p id="p2">验证码：</p><input type="text"  id="yanma" placeholder="请输入验证码" required ><br>
-				<input type="text"  id="yan" disabled="disabled" />
+				<input type="text"  id="yan" style="display: none;" />
 				<input id="putt" type="button" value="获取验证码" />
 				
 				

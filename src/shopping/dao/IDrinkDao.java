@@ -21,4 +21,5 @@ public interface IDrinkDao {
 	public int updatest(int ordernum ,int status);
 	public Page userbuy(Userbuy userbuy,int pageNo, int pageSize);
 	public Page buycar(Userbuy userbuy,int pageNo, int pageSize);
+
 }

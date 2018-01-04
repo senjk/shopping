@@ -62,6 +62,7 @@ h2{
 	margin: 10px 0px 10px 0px;
 }
 #formcs #yan{
+	display:none;
 	width: 100px;
 	height: 35px;
 	text-align:center;
@@ -74,7 +75,7 @@ h2{
 	width: 85px;
 	height: 40px;
 	float: left; 	
-	margin: 10px 0px 10px 0px;
+margin: 10px 0px 10px 150px;
 }
 
 #formcs #massage{

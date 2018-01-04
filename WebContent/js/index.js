@@ -40,7 +40,7 @@ $(document).ready(function(){
    		var content_list = $("#bodyshow");
    		var v_width = content_list.width();
    		var len = content.find("div").length;
-   		var page_count = Math.ceil(len / i) +1;   //只要不是整数，就往大的方向取最小的整数
+   		var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数
    		if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画
      		if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。
 //   			content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");
@@ -68,7 +68,7 @@ $("#next1").click(function(){ //绑定click事件
    	var content_list = $("#bodyshow1");
    	var v_width = content.width();
    	var len = content_list.find("div").length;
-   	var page_count = Math.ceil(len / i)+1 ;   //只要不是整数，就往大的方向取最小的整数
+   	var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数
    	if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画
     	if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。
     		content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面
